@@ -1,0 +1,24 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "e:/BaiduNetdiskDownload/FreeRTOS_learning/FreeRTOS/02_FreeRTOS任务创建与删除（静态创建）/USER",
+      "program": "e:/BaiduNetdiskDownload/FreeRTOS_learning/FreeRTOS/02_FreeRTOS任务创建与删除（静态创建）/USER/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
